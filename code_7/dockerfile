@@ -1,0 +1,5 @@
+#utilise une image Alpine legere
+FROM alpine:latest
+
+# definit la commande executée au démarrage du conteneur
+CMD echo "Bonjour Université Sorbonne Paris Nord"
